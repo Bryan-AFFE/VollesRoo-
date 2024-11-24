@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unser Karnevalswagen</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Verbindung zu CSS -->
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei unserem Karnevalswagen!</h1>
+        <nav>
+            <ul>
+                <li><a href="#info">Über uns</a></li>
+                <li><a href="#bilder">Bilder</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="info">
+            <h2>Über uns</h2>
+            <p>Hier erzählen wir etwas über unseren Karnevalswagen und unser Team.</p>
+        </section>
+
+        <section id="bilder">
+            <h2>Bilder</h2>
+            <div class="gallery">
+                <img src="images/wagen1.jpg" alt="Unser Wagen 2023">
+                <img src="images/wagen2.jpg" alt="Karnevalsauftritt">
+                <img src="images/team.jpg" alt="Unser Team">
+            </div>
+        </section>
+        
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Dein Name" required>
+        
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Deine E-Mail" required>
+        
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" placeholder="Deine Nachricht" rows="5" required></textarea>
+        
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+        
+
+    <footer>
+        <p>&copy; 2024 Unser Karnevalsteam. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
+
